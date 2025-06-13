@@ -1,0 +1,330 @@
+[
+  {
+    "image": "handbook/images/Stop_sign.png",
+    "ground_truth": "<traffic_sign name=\"Stop sign\">\n<flowchart>\n    <section title=\"1\">\n      The driver should stop the vehicle immediately if the sign is used by police, traffic and toll authorities at the check post. (1)\n     \n      <section title=\"2\">\n      The driver facing the sign shall - (2)\n       a.With stop line:stop before crossing the transverse “STOP” line preceding the “STOP” sign;\n      b.Without stop line:stop immediately before “STOP” sign\n       <section title=\"3\">\n      If the stop sign is at a pedestrian crossing: stop before the stop line preceding the pedestrian crossing. (2)\n      <section title=\"4\">\n      A vehicle shall not be stopped(2):\n       a.Narrow Road: at a place where the road is narrow or the view is obstructed.\n      b.near or on a sharp bend\n      c.Weaving lane:in an acceleration or a deceleration lane\n      d.on, or five meters before, a pedestrian crossing\n      e.on a level crossing\n      f.five meters or less before a traffic light signal or “Give Way” sign or “STOP” sign or if a stationary vehicle is likely to obstruct these signs from the view of other road users\n      g.Bus Bay:at designated bus stands if the vehicle is other than a bus;\n      h.on a yellow box marked on road\n      i.where prohibited by a mandatory “No Stopping” sign.\n       <section title=\"5\">\n        At construction or work zones:\n        The driver shall slow down and take a diversion according a take diversion sign or manual signalling by workers or police.(o)\n       <section title=\"6\">\n      At railway crossings:\nThe driver must stop and ensure no train is approaching before crossing.(o)\n      KEY WORDS\n        1) \"Police\", \"Traffic\", \"Toll Authorities\", \"Checkpost\"\n      2)a)\"With stop line\"        \n        b)\"Without stop line\"\n      3)\"Pedestrian crossing\"\n      4)\"When shall a vehicle not be stopped?\"\n        a)\"Narrow Road\"\n        b)\"Sharp bend\"\n        c)\"Weaving lane\"\n        d)\"5 meters before a Pedestrian crossing\"\n        e)\"level crossing\"\n        f)\"traffic light\" , \"Give Way\" , \"stationary vehicle\"\n        g)\"Bus Bay\"\n        h)\"yellow box\"\n        i)\"No Stopping\"\n      5)\"construction\" , \"work zones\"\n      6)\"railway crossings\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Give_way_sign.png",
+    "ground_truth": "<traffic_sign name=\"Give way sign\">\n<flowchart>\n    <section title=\"1\">\n      When supplemented by a single or double broken transverse “Give Way” road marking, the driver shall slowdown, give way to traffic on the road he is approaching, and proceed cautiously. (2)\n<section title=\"2\">\n      If there is no pedestrian crossing marked or an uncontrolled pedestrian crossing before the “Give Way” sign or “STOP” sign, the driver shall give way to the pedestrians. (2)\n     <section title=\"3\">\n If the vehicle is emerging onto a road from a property bordering there on shall give way to the motor vehicles and other traffic already running on that road. (2)\n     <section title=\"4\">\n At roundabouts the fellow traffic on the right side must be given way to. (1)\n<section title=\"5\">\n      At intersections or merging traffic: Allow vehicles on the major road or intersection to pass before moving forward. (1)\n<section title=\"6\">\nIn schools or hospital zones:\nThe driver must give way to slow moving or vulnerable road users especially during active hours.(o)\n      \n       KEY WORDS\n      1)\"single or double broken\"\n      2)\"no pedestrian crossing marked\" , \"uncontrolled pedestrian crossing\"\n      3)\"property bordering\"\n      4)\"roundabouts\"\n      5)\"intersections\" , \"merging traffic\"\n      6)\"schools\" , \"hospitals\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Compulsary_left_turn.png",
+    "ground_truth": "<traffic_sign name=\"Compulsary left turn\">\n<flowchart>\n    <section title=\"1\">\n      The vehicle must compulsarily turn left. (1)\n      The driver should clearly indicate the intention to turn left using indicators or hand signals and move to the leftmost lane or slip lane in good time. (2)\n    <section title=\"2\">\n      At uncontrolled pedestrian crossings, the driver shall give way to the pedestrians before turning left. (2)\n     <section title=\"3\">\nThe driver shall not stop or reverse in the turning zone.(o) \n      KEY WORDS\n       1)\"compulsarily \" , \"turn left\", \"slip lane\"\n      2)\"uncontrolled pedestrian crossings\"\n      3) \"turning zone\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Compulsary_right_turn.png",
+    "ground_truth": "<traffic_sign name=\"Compulsary right turn\">\n<flowchart>\n    <section title=\"1\">\n      The vehicle must compulsarily turn right. (1)\n      A driver turning right must clearly indicate the turn in advance using indicators or hand signals and must move to the rightmost lane or slip lane in good time.\n <section title=\"2\">\n      At uncontrolled pedestrian crossings, the driver shall give way to the pedestrians before turning right. (2)\n <section title=\"3\">\nThe driver shall not stop or reverse in the turning zone.(o) \n      KEY WORDS\n       1)\"compulsarily \" , \"turn left\", \"slip lane\"\n      2)\"uncontrolled pedestrian crossings\"\n      3) \"turning zone\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/One_way.png",
+    "ground_truth": "<traffic_sign name=\"One way\">\n<flowchart>\n    <section title=\"1\">\n      A vehicle shall not be driven on a road declared “One Way”, except in the direction specified by the signage. (1)\n    <section title=\"2\">\n      In a case of utmost emergency, drive in either direction on a “NO ENTRY” or a “One Way” street. (2)\n    <section title=\"3\">\n     The driver must not stop, reverse, or attempt a U-turn on a One way road.(o)\n      KEY WORDS\n        1)\"One Way\",\"direction specified\"\n      2)\"utmost emergency\"\n      3)\"stop\", \"reverse\", \"U-turn\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/No_entry.png",
+    "ground_truth": "<traffic_sign name=\"No entry\">\n<flowchart>\n    <section title=\"1\">\n      Closed roads or restricted areas: The driver must divert his route. (1)\n      If already on the road leading to a No Entry zone, drivers must turn around safely without obstructing traffic. (2)\n     <section title=\"2\">\n     At opposite end of a one way road:\n      The driver must not enter the road and must turn around and enter through the correct one way entrance.(o)\n      <section title=\"3\">\n    At intersections where entry could be dangerous:\n      The driver should not proceed.Turn away safely.(o)\n      KEY WORDS\n        1)\"Closed roads\", \"restricted areas\"\n      2)\"one way road\" \n      3)\"intersections\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Priority_for_oncoming_traffic.png",
+    "ground_truth": "<traffic_sign name=\"Priority for oncoming traffic\">\n<flowchart>\n    <section title=\"1\">\n      The traffic from the side where the sign is erected should move only when there is no oncoming traffic i.e. priority should be given to oncoming traffic. (1)\n    <section title=\"2\">\n    At parking or loading zones that narrow the road:\nIn narrow lanes partially blocked by parked vehicles, the driver may need to yield to traffic coming from the open lane direction.(o)\n    <section title=\"3\">\nHilly roads or single lane curves:\nIf the road is too narrow or visibility is limited, give priority to vehicles already on the curve or incline. Uphill drivers usually have right of way.(o)\n      KEY WORDS\n       1)\"no oncoming traffic\".                                                \n       2)\"parking\" , \"loading zones\"\n       3)\"Hilly roads\" , \"single lane curves\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/All_motor_vehilcles_prohibited.png",
+    "ground_truth": "<traffic_sign name=\"All motor vehilcles prohibited\">\n<flowchart>\n    <section title=\"1\">\n      There should be no movement of traffic in the designated area either from outside or within.\n      This can be for either of the two reasons (1):\n       a.used to decongest the area\n      b.used at pedestrian areas\n      c.At public events,  rallies or VIP movement.(o)\n      KEY WORDS\n        1) \"All motor vehicles prohibited\"\n        (a)\"decongest\"                                                                   \n        (b) \"pedestrian areas\"\n        (c)\"public events\", \"rallies\" , \"VIP\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Right_turn_prohibited.jpeg",
+    "ground_truth": "<traffic_sign name=\"Right turn prohibited\">\n<flowchart>\n    <section title=\"1\">\n      This sign indicates driver to not turn to right under any circumstance.(1)\n      KEY WORDS\n      1)\"right turn\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Left_turn_prohibited.jpeg",
+    "ground_truth": "<traffic_sign name=\"Left turn prohibited\">\n<flowchart>\n    <section title=\"1\">\n      This sign indicates driver to not turn to left under any circumstance.(1)\n      KEY WORDS\n      1)\"left turn\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/U_turn_prohibited.jpeg",
+    "ground_truth": "<traffic_sign name=\"U turn prohibited\">\n<flowchart>\n    <section title=\"1\">\n      Seen at busy intersections.  U-turns here may cause traffic jams or crashes.  \n      Drivers must not violate this sign to avoid fines or incidents.(1)\n    <section title=\"2\">\n      At no stopping or no waiting zones:\n      These areas require continuous flow. U-turning here could lead to rear-end collisions. Hence driver must not U-turn.(o)\n     <section title=\"3\">\n      Before or After Flyovers or Underpasses:\n      Road design doesn’t allow U-turns safely due to elevation and lack of space. Use designated loops.Do not U-turn.(o)\n      KEY WORDS\n      1)\"intersections\"\n      2)\"no stopping\" , \"no waiting\"\n      3)\"Flyovers\" , \"Underpasses\" , \"elevation\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Overtaking_Prohibited.png",
+    "ground_truth": "<traffic_sign name=\"Overtaking Prohibited\">\n<flowchart>\n    <section title=\"1\">\n      Prohibited zones:\n      Narrow roads, curves,bridges, junctions, or near school zones. Driver must not overtake.(1)\n     <section title=\"2\">\n      Extra caution must be taken where limited visibility or pedestrian activity is high .Overtaking must be avoided.(o)\n     <section title=\"3\">\n      Near bus stop or designated loading area:Overtaking here can be dangerous due to stopped vehicles or pedestrians stepping out.. Do not change lanes or overtake.(o)\n     <section title=\"4\">\n      In Construction or Maintenance Zones:Roads may be blocked, irregular, or narrowed. Obey signs and follow temporary rules.Avoid overtaking.(o)\n      KEY WORDS\n      1)\"Narrow roads\" , \"curves\", \"bridges\", \"junctions\", \"school zone\"  \n      2)\"limited visibility\" , \"pedestrian\"   \n      3)\"bus stop\" , \"loading area\"\n      4)\"construction\" , \"maintainance zones\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Speed_Limit.png",
+    "ground_truth": "<traffic_sign name=\"Speed Limit\">\n<flowchart>\n    <section title=\"1\">\n      The limit should be invariably followed to avoid sudden collisions and penal action.(1)\n      Do not drive slowly as to impede normal traffic flow.(2)\n      <section title=\"2\">\n      During fog, rain, storm,etc., reduce speed to stop safely within visible range. (2)\n      <section title=\"3\">\n      Do not exceed speed limit(25Km/hr or less if specified) while passing by a School, hospital or construction zone, or on roads without footpath(2)\n      KEY WORDS\n      1)\"sudden collisions\",\"penal action\"\n      2)\"fog\", \"rain\", \"storm\" \n      3) \"School\", \"hospital\", \"constrution zone\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/No_parking.jpeg",
+    "ground_truth": "<traffic_sign name=\"No parking\">\n<flowchart>\n    <section title=\"1\">\n      This sign prohibits parking of a vehicle in the designated area.\n      Any vehicle parked here will be towed away and the driver is liable to penal action.(1)\n      Areas where these signs are found are near hospitals, emergency exits, schools and college gates, narrow roads or lanes, bus stops or auto rikshaw, intersection or pedestrian crossing,etc\n      KEY WORDS\n      1) \"prohibits parking\", \"hospitals\" , \"emergency exits\", \"schools and college gates\", \"narrow roads or lanes\" , \"bus stops or auto rikshaw\" , \"intersection\" , \"pedestrian crossing\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/No_stopping_or_standing.jpeg",
+    "ground_truth": "<traffic_sign name=\"No stopping or standing\">\n<flowchart>\n    <section title=\"1\">\n      The vehicle must not stop or stand in areas where this sign is installed as these roads demand continuous flow of traffic and stopping of one vehicle will disrupt the whole traffic flow.\n      Any vehicle stopping  at these places  could meet a crash and also a penal action .(1)\n     <section title=\"2\">\n      Near Traffic  Signals or Intersections:\n      Do not stop or wait near the signal or junction area, as it can block visibility or turning paths.(o)\n     <section title=\"3\">\n      In “No Waiting” or VIP Movement Zones:\n      These are temporarily or permanently restricted areas, especially during high-security events.The driver must not stand or stop .(o)\n     <section title=\"4\">\n      On Highways or Expressways:\n      Stopping here is extremely dangerous due to high-speed vehicles. Only stop in emergencies or designated zones.(o)\n     <section title=\"5\">\n      Outside Emergency Zones (Hospitals, Fire Stations, etc.):\n      Leave these lanes clear at all times for emergency vehicles to pass freely.(o)\n      KEY WORDS\n      1)\"continous flow of traffic\"\n      2)\"Traffic signals\" , \"intersections\"\n      3)\"No waiting\" , \"VIP\"\n      4)\"Highways\" , \"Expressways\"\n      5)\"Emergency zones\", \"hospitals\" , \"fire station\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Height_Limit.png",
+    "ground_truth": "<traffic_sign name=\"Height Limit\">\n<flowchart>\n    <section title=\"1\">\n      Some roads pass under low-height structures like bridges, tunnels, underpasses or railway lines. To prevent accidents, it is specified the maximum vehicle height allowed to safely pass underneath. The specified limit should be strictly adhered to avoid crashes and penal action.(1)\n      If your vehicle exceeds the posted height, do not enter. Take an alternate route or detour.\n      KEY WORDS\n      1) \"low-height structures\", \"bridges\", \"tunnels\", \"underpassses\", \"railway lines\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Compulsary_ahead.png",
+    "ground_truth": "<traffic_sign name=\"Compulsary ahead\">\n<flowchart>\n    <section title=\"1\">\n      This sign indicates that vehicle should move in straight direction and turning to either side would lead to penal action and safety hazard.(1)\n      Cases Where a Compulsory Ahead Sign is Present :\n      a. At T-Junctions or Forks Where Turns Are Not Allowed\n      b. During Diversions or Road Closures\n      c. Near Schools, Hospitals, or Silent Zones\n      d. At Intersections Leading into One-Way Roads (from the side)\n      e. Where Left/Right Turns Cause Obstruction or Congestion\n      f. Inside Large Campuses or Industrial Zones\n      g. In Parking Lots or Drive-Through Areas\n      h. Near High-Security Zones or Barricaded Roads\n      KEY WORDS\n      1) \"strainght direction\"\n         (a) \"T-juctions\", \"forks\"\n         (b) \"diversions\", \"road closures\"\n         (c) \"schools\", \"hospitals\", \"silent zones\"\n         (d) \"one-way roads\"\n         (e) \"congestion\", \"obstruction\"\n         (f) \"campuses\", \"industrial zones\"\n         (g) \"parking lots\", \"drive-through\"\n         (h) \"high-security zones\", \"barricaded zones\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Compulsary_ahead_or_turn_right.png",
+    "ground_truth": "<traffic_sign name=\"Compulsary ahead or turn right\">\n<flowchart>\n    <section title=\"1\">\n      This sign directs the traffic to either move straight or take right turn. Turning towards left is prohibited.(1)\n      Cases Where a “Compulsory Ahead or Turn Right” Sign is Present:\n      At T-Junctions with Left Turn Blocked\n      a. To Avoid Entry into a One-Way Street from the Wrong Side\n      c. Near Dividers, Medians, or Road Barriers\n      d. At Road Construction or Temporary Diversions\n      e. Near Schools, Hospitals, or Sensitive Zones\n      f. At Traffic Signals with Lane-Based Movement Control\n      g. In Housing Societies or Tech Parks with Internal Road Rules\n      h. On Hilly or Narrow Roads\n      KEY WORDS\n      1) \"left prohibited\"\n         a) \"T-juctions\", \"forks\"\n         b) \"one-way roads\"\n         c) \"dividers\", \"medians\", \"road barriers\"\n         d) \"construction\", \"diversions\"\n         e) \"schools\", \"hospitals\", \"sensitive zones\"\n         f) \"traffic signals\"\n         g) \"Housing Societies\", \"Tech Parks\"\n         h) \"hilly\", \"narrow roads\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Compulsary_ahead_or_turn_left.png",
+    "ground_truth": "<traffic_sign name=\"Compulsary ahead or turn left\">\n<flowchart>\n    <section title=\"1\">\n      This sign directs the traffic to either move straight or take left turn. Turning towards right is prohibited. Violation of these sign may jeopardize your safety and may also lead to penal action.(1)\n      a. At T-Junctions with Left Turn Blocked\n      b. To Avoid Entry into a One-Way Street from the Wrong Side\n      c. Near Dividers, Medians, or Road Barriers\n      d. At Road Construction or Temporary Diversions\n      e. Near Schools, Hospitals, or Sensitive Zones\n      f. At Traffic Signals with Lane-Based Movement Control\n      g. In Housing Societies or Tech Parks with Internal Road Rules\n      h. On Hilly or Narrow Roads\n      KEY WORDS\n      1) \"right prohibited\"\n         a) \"T-juctions\", \"forks\"\n         b) \"one-way roads\"\n         c) \"dividers\", \"medians\", \"road barriers\"\n         d) \"construction\", \"diversions\"\n         e) \"schools\", \"hospitals\", \"sensitive zones\"\n         f) \"traffic signals\"\n         g) \"Housing Societies\", \"Tech Parks\"\n         h) \"hilly\", \"narrow roads\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Compulsary_keep_left.jpeg",
+    "ground_truth": "<traffic_sign name=\"Compulsary keep left\">\n<flowchart>\n    <section title=\"1\">\n      This sign indicates that the driver should be in the left lane for the smooth traffic.\n      It is seen mostly on the roads that do not have a divider and two way traffic flows on the same road.(1)\n      KEY WORDS\n      1) \"be in the left lane\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Compulsary_cycle_track.png",
+    "ground_truth": "<traffic_sign name=\"Compulsary cycle track\">\n<flowchart>\n    <section title=\"1\">\n      It signifies that cyclists should compulsarily use this track.\n      Also strictly restricts any other movement other than cyclists.(1)\n    <section title=\"2\">\n      When any road is provided with a cycle track, no vehicle shall drive or park on such track, except on the directions of a police officer in uniform or where traffic signs permitting such movement have been displayed.(2)\n      KEY WORDS\n      1) \"cyclists\"\n      2) \"vehicles\", \"police\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Compulsary_sound_horn.jpeg",
+    "ground_truth": "<traffic_sign name=\"Compulsary sound horn\">\n<flowchart>\n    <section title=\"1\">\n      While manoeuvering a blind turn especially in hilly roads blowing horn before turn is one of the safety measures to let oncoming traffic know your presence on road.(1)\n      KEY WORDS\n      1) \"blind turn\", \"hilly roads\", \"oncoming traffic\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Compulsary_minimum_speed.png",
+    "ground_truth": "<traffic_sign name=\"Compulsary minimum speed\">\n<flowchart>\n    <section title=\"1\">\n      The vehicles using the road, at the entrance to which the sign is placed shall travel at the specified speed.\n      The vehicle shall not be driven at a speed less than the minimum speed limit specified on the sign to avoid penal action and crashes on road.(1)\n    <section title=\"2\">\n      In Dedicated Fast Lanes (e.g., right-most lane): Minimum speed ensures lane discipline. If you can’t maintain it, shift to a slower lane.\n    <section title=\"3\">  \nAfter Exiting Toll Plazas or Control Zones: Prevents slow merging into fast-moving highway traffic. Accelerate to minimum speed quickly.\n      KEY WORDS\n      1) \"minimum speed limit\"\n      2) \"dedicated fast lanes\"\n      3) \"Exiting Toll Plazas\", \"Control Zones\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Restriction_ends.png",
+    "ground_truth": "<traffic_sign name=\"Restriction ends\">\n<flowchart>\n    <section title=\"1\">\n      Any restriction conveyed through sign on road ends here.(1)\n      KEY WORDS\n      1) \"restriction\", \"ends\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Right_hand_curve.png",
+    "ground_truth": "<traffic_sign name=\"Right hand curve\">\n<flowchart>\n    <section title=\"1\">\n      This cautions about a right hand curve ahead. This helps in maneuvering the vehicle and avoids possibility of crash due to sudden appearance of a turn.(1)\n      <section title=\"2\">\n      When Curve Visibility Blocked (e.g., by walls, trees, fog): Curve signs compensate for lack of direct line-of-sight. Drive cautiously and prepare to turn right.(o)\n      <section title=\"3\">\n      On Mountain Roads or Hill Areas: Roads often wind sharply. Drivers must slow down, stay in lane, and avoid overtaking and prepare to turn right.(o)\n      KEY WORDS\n      1) \"right hand curve ahead\"\n      2) \"curve Visibility Blocked\"\n      3) \"Mountain Roads\", \"Hill Areas\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Left_hand_curve.png",
+    "ground_truth": "<traffic_sign name=\"Left hand curve\">\n<flowchart>\n    <section title=\"1\">\n      This cautions about a left hand curve ahead. This helps in maneuvering the vehicle and avoids possibility of crash due to sudden appearance of a turn.(1)\n     <section title=\"2\"> \n     When Curve Visibility Blocked (e.g., by walls, trees, fog): Curve signs compensate for lack of direct line-of-sight. Drive cautiously and prepare to turn left.(o)\n     <section title=\"3\"> \n     On Mountain Roads or Hill Areas: Roads often wind sharply. Drivers must slow down, stay in lane, and avoid overtaking and prepare to turn left.(o)\n      KEY WORDS\n      1) \"left hand curve ahead\"\n      2) \"curve Visibility Blocked\"\n      3) \"Mountain Roads\", \"Hill Areas\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Right_hair_pin_bend.png",
+    "ground_truth": "<traffic_sign name=\"Right hair pin bend\">\n<flowchart>\n    <section title=\"1\">\n      This cautions about a sharp right turn ahead (especially on hilly roads). Reduce the speed to manage the turn. Strictly adhere to this rule to avoid serious crashes.(1)\n      KEY WORDS\n      1) \"sharp right turn ahead\", \"hilly roads\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Left_hair_pin_bend.png",
+    "ground_truth": "<traffic_sign name=\"Left hair pin bend\">\n<flowchart>\n    <section title=\"1\">\n      This cautions about a sharp left turn ahead (especially on hilly roads). Reduce the speed to manage the turn. Strictly adhere to this rule to avoid serious crashes.(1)\n      KEY WORDS\n      1) \"sharp left turn ahead\", \"hilly roads\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Right_reverse_bend.png",
+    "ground_truth": "<traffic_sign name=\"Right reverse bend\">\n<flowchart>\n    <section title=\"1\">\n      This sign indicates sort of Z formation on road ahead. It cautions driver about zigzag turn towards right. The driver should reduce the speed at sight of this sign and maneuver the        vehicle cautiously.(1)\n      KEY WORDS\n      1) \"Z formation\", \"zigzag\", \"right\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Left_Reverse_bend.png",
+    "ground_truth": "<traffic_sign name=\"Left Reverse bend\">\n<flowchart>\n    <section title=\"1\">\n      This sign indicates sort of Z formation on road ahead. It cautions driver about zigzag turn towards left. The driver should reduce the speed at sight of this sign and maneuver the vehicle cautiously.(1)\n      KEY WORDS\n      1) \"Z formation\", \"zigzag\", \"left\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Steep_Ascent.png",
+    "ground_truth": "<traffic_sign name=\"Steep Ascent\">\n<flowchart>\n    <section title=\"1\">\n      This indicates steep ascent ahead, get ready to climb put the vehicle in relevant gear.(1)\n      Maintain extra distance between your vehicle and the one ahead, as vehicles may slow down or roll back slightly while climbing.\n      Trucks may ascend slowly or take up more space; be patient and avoid overtaking on the slope.(o)\n      <section title=\"2\">\n      On narrow road: Where the road is not sufficiently wide to allow the motor vehicles to cross each other freely, the driver travelling downhill shall stop the vehicle on the left side of the road and allow the vehicle proceeding uphill to pass first.(2)\n      <section title=\"3\">\n      Be cautious of road conditions like loose gravel or wet patches, which may cause skidding during the ascent.\n      KEY WORDS\n      1) \"steep ascent ahead\"\n      2) \"narrow road\"\n      3) \"road conditions\", \"loose gravel\", \"wet patches\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Steep_Descent.png",
+    "ground_truth": "<traffic_sign name=\"Steep Descent\">\n<flowchart>\n    <section title=\"1\">\n      There is a steep descent ahead and driver should get ready to climb down and put the vehicle in relevant gear. Drive slowly. These signs are found on hilly roads.(1)\n     <section title=\"2\"> \n     On narrow road: Where the road is not sufficiently wide to allow the motor vehicles to cross each other freely, the driver travelling downhill shall stop the vehicle on the left side of the road and allow the vehicle proceeding uphill to pass first.(2)\n      <section title=\"3\">\n      Be cautious of road conditions like loose gravel or wet patches, which may cause skidding during the descent. Maintain extra distance from heavy vehicles ahead, as they may descend slowly or stop unexpectedly.(o)\n      KEY WORDS\n      1) \"steep descent ahead\"\n      2) \"narrow road\"\n      3) \"road conditions\", \"loose gravel\", \"wet patches\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Narrow_road_ahead.png",
+    "ground_truth": "<traffic_sign name=\"Narrow road ahead\">\n<flowchart>\n    <section title=\"1\">\n      The driver must become cautious as the road ahead is narrow.(1)\n      The vehicles must not overtake and move slowly.(2)\n      Large or wide vehicles may need more space — be prepared to slow down or stop to let them pass safely.(o)\n      KEY WORDS\n      1) \"narrow\", \"overtake\", \"wide vehicles\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Road_widens_ahead.png",
+    "ground_truth": "<traffic_sign name=\"Road widens ahead\">\n<flowchart>\n    <section title=\"1\">\n      The width of this road widens after this sign and thus traffic should adjust accordingly.(1)\n      Be aware of vehicles merging or changing lanes; the additional width may invite sudden movements.\n      Use the opportunity to safely overtake only if permitted and with proper indication.(o)\n      KEYWORDS\n      1)\"road widens\", \"vehicles merging\", \"safely overtake\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Narrow_bridge.png",
+    "ground_truth": "<traffic_sign name=\"Narrow bridge\">\n<flowchart>\n    <section title=\"1\">\n      This sign is present before the bridges which is of less width that that of the road.\n      The driver should reduce the speed and watch for oncoming traffic for safe drive.(1)\n      Do not attempt overtaking while on the bridge. Maintain lane discipline.\n      Use horn or low-beam headlights to alert oncoming vehicles during fog, curves, or low visibility near the bridge.\n      If the bridge is too narrow for two vehicles to pass at once, allow the vehicle already on the bridge or closer to bridge to pass first.(o)\n      KEY WORDS\n      1) \"speed\", \"traffic\", \"overtaking\", \"lane discipline\", \"horn\", \"low-beam\", \"low visibility\", \"on the bridge\", \"closer to bridge\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Slippery_Road.png",
+    "ground_truth": "<traffic_sign name=\"Slippery Road\">\n<flowchart>\n    <section title=\"1\">\n      This sign indicates the slippery condition of the road ahead. The driver should slow down the vehicle at sight of this sign to avoid crash.(1)\n      Maintain a safe distance than usual to allow for longer stopping distances.\n      Be extra cautious during or after rain, snow, oil spills, or near construction zone.(o)\n      KEYWORDS\n      1) \"slow down\", \"safe distance\", \"rain\", \"snow\", \"oil spills\", \"construction zone\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Loose_gravel.png",
+    "ground_truth": "<traffic_sign name=\"Loose gravel\">\n<flowchart>\n    <section title=\"1\">\n      This sign is present on hilly roads where loose earth or gravel keeps on falling on the road.\n      Driver should drive slowly and carefully after this sign as little carelessness can cause major crashes here.(1)\n      Keep a firm grip on the steering wheel as loose gravel can cause slight shifts in vehicle direction, especially at higher speeds.\n      Maintain a safe distance from other vehicles to avoid flying gravel damaging your windshield or reducing visibility.(o)\n      KEYWORDS\n      1) \"hilly roads\", \"gravel\", \"safe distance\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Cycle_crossing.png",
+    "ground_truth": "<traffic_sign name=\"Cycle crossing\">\n<flowchart>\n    <section title=\"1\">\n      This road sign indicates that there is a cycle path intersecting the major road or is frequented by cyclists. \n      The driver should carefully cross this intersection so that cyclist could cross the major road safely.(1)\n      Clearly check mirrors and blind spots for cyclists before turning or changing lanes near the crossing.\n      Do not block the cycle crossing area; stop well before the marked path. (o)\n      KEYWORDS\n      1) \"intersection\",  \"blind spots\",\"turning\", \"changing lanes\", \"stop\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Pedestrian_crossing.png",
+    "ground_truth": "<traffic_sign name=\"Pedestrian crossing\">\n<flowchart>\n    <section title=\"1\">\n      This sign cautions the driver to either slow down or stop the vehicle and allow the pedestrian to cross the road. \n      The part of road is also demarcated in white strips known as zebra crossing. At zebra crossing the Pedestrian has first right on the road.(1)\n      <section title=\"2\"> \n      At a traffic signal, give way to any pedestrian, who is within the intersection or at an adjacent pedestrian crossing.(2)\n      <section title=\"3\">\n      No vehicle shall block the pedestrian crossing.(2)\n      <section title=\"4\">\n      Do not overtake a stopped vehicle at a pedestrian crossing.(o)\n      <section title=\"5\">\n      At night or during poor visibility (fog, rain), drivers must slow down near known pedestrian crossing zones and be ready to stop.(o)\n      KEYWORDS\n      1) \"white strips\",\"zebra crossing\"\n      2) \"traffic signal\",\"intersection\"\n      3) \"vehicle\",\"block\"\n      4) \"stopped vehicle\"\n      5) \"poor visibility\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/School_ahead.png",
+    "ground_truth": "<traffic_sign name=\"School ahead\">\n<flowchart>\n    <section title=\"1\">\n      This indicates that a school is nearby (School zone). Driver is required to slow down to avoid crashes. Children often cross road by unprecedented moves. So to ensure safety of children drive carefully.(1)\n      <section title=\"2\">\n      Do not overtake, speed up in this zone. Do not overtake even a stopped bus or a vehicle dropping or picking children, as children may run across the road.(o)\n      <section title=\"3\">\n      Do not stop or park in areas where vehicles may obstruct the view of children trying to cross the road (e.g., near corners or crosswalks).(o)\n      KEY WORDS\n      1) \"School zone\", \"slow down\"\n      2) \"overtake\", \"stopped bus\"\n      3) \"stop\", \"park\", \"corners\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Traffic_signal.png",
+    "ground_truth": "<traffic_sign name=\"Traffic signal\">\n<flowchart>\n    <section title=\"1\">\n      This sign on road indicates that this road is regulated by three-colour light signals, as driver may not expect such section of some roads.(1)\n      <section title=\"2\">\n      Slow down on seeing this sign and prepare to stop if the signal is red or about to change.\n      Do not try to speed up to beat the signal; it risks accidents.\n      Obey the signal even if there is low traffic; signals manage right of way and pedestrian safety.(o)\n      KEYWORDS\n      1) \"three-colour light\"\n      2) \"stop\", \"low traffic\", \"pedestrian safety\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Cattle.png",
+    "ground_truth": "<traffic_sign name=\"Cattle\">\n<flowchart>\n    <section title=\"1\">\n      This sign warns of cattle possibly straying onto the road. Drive slowly and carefully, keeping a safe distance.\n      <section title=\"2\">\n      If the cattle is crossing stop the vehicle and allow it to cross.(2)\n      KEY WORDS\n      1) \"straying\"\n      2) \"crossing\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Ferry.png",
+    "ground_truth": "<traffic_sign name=\"Ferry\">\n<flowchart>\n    <section title=\"1\">\n      It is an intersection of road with river without any provision of bridge. This indicates roads are connected by ferry service.(1)\n      KEYWORDS\n      1) \"Intersection\",\"ferry\".\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Falling_rocks.png",
+    "ground_truth": "<traffic_sign name=\"Falling rocks\">\n<flowchart>\n    <section title=\"1\">\n      In hilly roads rocks fall on road during landslide in extreme weather. This sign shows that road is prone to such falls. Hence driver should be alert to avoid crashes.(1)\n      KEYWORDS\n      1) \"hilly roads\", \"landslide\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Dangerous_dip.png",
+    "ground_truth": "<traffic_sign name=\"Dangerous dip\">\n<flowchart>\n    <section title=\"1\">\n      This cautions driver that there is a dip on road ahead. This sign helps driver to reduce speed to cross plunge on the road.(1)\n      This sign is used where a sharp dip in the profile of the road or a causeway is likely to cause considerable discomfort to traffic.\n      KEYWORDS\n      1) \"dip\", \"reduce speed\", \"causeway\", \"discomfort\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Hump_or_Rough_road.png",
+    "ground_truth": "<traffic_sign name=\"Hump or Rough road\">\n<flowchart>\n    <section title=\"1\">\n      Sometimes there is a hump on road created intentionally to slow the traffic. This cautions the driver to reduce the speed to cross the hump comfortably.(1)\n      This sign is used to warn the drivers of the presence of a speed breaker or rough road ahead.\n      KEYWORDS\n      1) \"hump\", \"speed breaker\", \"rough road\", \"reduce speed\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Barrier_ahead.png",
+    "ground_truth": "<traffic_sign name=\"Barrier ahead\">\n<flowchart>\n    <section title=\"1\">\n      Many a times the road passes through toll collection point/check posts etc. One can find barriers on such places. This sign indicates that there is a barrier ahead on the road and vehicle has to stop there.(1)\n      This sign is used to warn drivers of an upcoming toll plaza, checkpost, or other road barrier where stopping may be required.\n      KEYWORDS\n      1) \"toll plaza\", \"checkpost\", \"barrier\", \"stop\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Gap_in_median.png",
+    "ground_truth": "<traffic_sign name=\"Gap in median\">\n<flowchart>\n    <section title=\"1\">\n      This sign indicates that there is a gap in the divider of a road and there is a provision of U-turn. The driver should slow down and take relevant lane to avoid any crash.(1)\n      This sign is installed ahead of a gap in the median of a divided carriageway, other than an intersection.\n      KEYWORDS\n      1) \"gap in median\", \"U-turn\", \"slow down\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Cross_road.png",
+    "ground_truth": "<traffic_sign name=\"Cross road\">\n<flowchart>\n    <section title=\"1\">\n      This sign indicates that there is a crossing of roads ahead. This sign indicates that the vehicle should be slowed and intersection should be crossed cautiously by looking on both sides.(1)\n      Avoid overtaking while approaching the intersection, as vehicles may enter from cross directions.(o)\n      KEYWORDS\n      1) \"cross road\", \"intersection\", \"cautious\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Side_road_left.png",
+    "ground_truth": "<traffic_sign name=\"Side road left\">\n<flowchart>\n    <section title=\"1\">\n      This sign belongs to the family of Give Way signs. This particular sign indicates that there is side road on left. This sign is used in conjunction with a give way sign on the side road.(1)\n      This sign is displayed in advance of the cross road where a sufficiently large volume of crossing or entering traffic with restricted sight distance is likely to constitute a hazard.\n      KEYWORDS\n      1) \"side road\", \"left\", \"hazard\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Side_road_right.png",
+    "ground_truth": "<traffic_sign name=\"Side road right\">\n<flowchart>\n    <section title=\"1\">\n      This sign belongs to the family of Give Way signs. This particular sign indicates that there is side road on right. This sign is used in conjunction with a give way sign on the side road.(1)\n      This sign is displayed in advance of the cross road where a sufficiently large volume of crossing or entering traffic with restricted sight distance is likely to constitute a hazard.\n      KEYWORDS\n      1) \"side road\", \"right\", \"hazard\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Y_Intersection_(side).png",
+    "ground_truth": "<traffic_sign name=\"Y Intersection (side)\">\n<flowchart>\n    <section title=\"1\">\n      This road cautions that there is formation of Y shape. The road is straight and has a left or right road in such a way it seems to be in Y shape. If taking a turn make sure turn on the indicator and stay in the left or right most (sliplane) lane according to the situation.(1)\n      KEYWORDS\n      1) \"Y shape\", \"sliplane\", \"indicator\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Y_intersection.png",
+    "ground_truth": "<traffic_sign name=\"Y intersection\">\n<flowchart>\n    <section title=\"1\">\n      This road cautions that there is formation of Y shape. It is formed by a straight road taking both left and right directions like a Y shape.(1)\n      While taking a Right or left turn make sure to turn on the indicator and be on left most or right most lane (sliplane) according to your choice of path.(2)\n      KEYWORDS\n      1) \"Y shape\", \"left\", \"right\", \"indicator\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/T_intersection.png",
+    "ground_truth": "<traffic_sign name=\"T intersection\">\n<flowchart>\n    <section title=\"1\">\n      This sign cautions about that there is T-intersection on the road ahead and there is no forward movement. Traffic has to either turn left or right. This helps driver in planning his movement on road. Make sure to follow guidelines on taking a turn.(1)\n      Reduce speed well before the intersection. Use turn indicators in advance to alert vehicles behind you about your intended direction.(o)\n      KEYWORDS\n      1) \"T-intersection\", \"left\", \"right\", \"turn indicators\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Staggered_intersection.png",
+    "ground_truth": "<traffic_sign name=\"Staggered intersection\">\n<flowchart>\n    <section title=\"1\">\n      These signs indicate that there is a left/right and right/left turn available on the straight road with small distance between them. It is an intersection which does not allow crossing of road.(1)\n      KEYWORDS\n      1) \"staggered intersection\", \"left/right\", \"right/left\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Round_about.png",
+    "ground_truth": "<traffic_sign name=\"Round about\">\n<flowchart>\n    <section title=\"1\">\n      Round About is a substitute of a road intersection. It allows smooth flow of traffic without the aid of traffic lights. This sign cautions about that there is a round about ahead and the driver has to take relevant lane well before maneuvering the round about.(1)\n      Use the left indicator when you're about to exit. If you're taking the third exit or going full circle, use the right indicator initially and switch left before exiting. Maintain a continuous flow; stopping suddenly or overtaking can disrupt traffic and cause collisions.(o)\n      KEYWORDS\n      1) \"round about\", \"lane\", \"indicator\", \"continuous flow\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Guarded_level_crossing.png",
+    "ground_truth": "<traffic_sign name=\"Guarded level crossing\">\n<flowchart>\n    <section title=\"1\">\n      Many a times road intersects the railway line. This sign indicates that there is a Railway crossing which is guarded by a person. The driver should take extra precautions and act accordingly. Single or double red stripe indicates that the crossing is at 100 mtrs. or 200 mtrs. respectively.(1)\n      KEYWORDS\n      1) \"railway crossing\", \"guarded\", \"red stripe\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Unguarded_level_crossing.png",
+    "ground_truth": "<traffic_sign name=\"Unguarded level crossing\">\n<flowchart>\n    <section title=\"1\">\n      This sign indicates that there is a Railway crossing which is not manned by personnel. This unguarded railway crossing has to be crossed by driver himself very cautiously after ensuring that there is no train on the track nearby. Single or double red stripe indicates that the crossing is at 100 mtrs. or 200 mtrs. respectively.(1)\n      KEYWORDS\n      1) \"railway crossing\", \"unguarded\", \"red stripe\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Riverbank.png",
+    "ground_truth": "<traffic_sign name=\"Riverbank\">\n<flowchart>\n    <section title=\"1\">\n      This sign indicates that this road leads to a river bank. Drivers should be cautious travelling on this road.(1)\n      Avoid overspeeding, especially during rainy or foggy conditions.\n      Use low beam headlights at night to enhance visibility near water.\n      During monsoon, check for erosion or water overflow before proceeding.(o)\n      KEYWORDS\n      1) \"river bank\", \"Avoid overspeeding\", \"rainy\", \"foggy\", \"low beam\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Men_at_work.png",
+    "ground_truth": "<traffic_sign name=\"Men at work\">\n<flowchart>\n    <section title=\"1\">\n      This sign indicates road work ahead. Drive slowly and carefully to ensure worker safety. Avoid speeding or overtaking in the construction zone.(1)\n     <section title=\"2\">\n Construction zones may involve temporary lane shifts or single-lane alternation.\n      Hence driver shall be prepared for sudden lane changes or road diversions.\n      Obey all temporary lane markings and signs.\n      KEY WORDS\n      1) \"speeding\", \"overtaking\", \"construction zone\"\n      2) \"lane shifts\", \"road diversion\"\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Advance_direction_sign.png",
+    "ground_truth": "<traffic_sign name=\"Advance direction sign\">\n<flowchart>\n    <section title=\"1\">\n      This sign indicates the various destinations falling on that particular road. These signs are generally installed before intersections.\n      The driver must take the turn towards the arrow that is pointing towards the desired destination.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Rotatory_intersection.png",
+    "ground_truth": "<traffic_sign name=\"Rotatory intersection\">\n<flowchart>\n    <section title=\"1\">\n      This advance sign is erected before an intersection indicating the destination by arrows, facilitating the driver to ensure that he is on correct route.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Advance_direction_sign(kms).png",
+    "ground_truth": "<traffic_sign name=\"Advance direction sign(kms)\">\n<flowchart>\n    <section title=\"1\">\n      This sign indicates the direction and distance to various destinations falling on that particular road. These signs are generally installed before intersections.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Direction_sign.png",
+    "ground_truth": "<traffic_sign name=\"Direction sign\">\n<flowchart>\n    <section title=\"1\">\n      This sign shows direction and distance of place written on it. This sign helps drivers in locating the places and thus is very helpful in saving time and fuel.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Confirmatory_sign.png",
+    "ground_truth": "<traffic_sign name=\"Confirmatory sign\">\n<flowchart>\n    <section title=\"1\">\n      This sign assures the driver that he is on right path and also tells the distance of the places written on it.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Place_identification_sign.png",
+    "ground_truth": "<traffic_sign name=\"Place identification sign\">\n<flowchart>\n    <section title=\"1\">\n      This sign identifies the area. This sign tells that the limit of the particular area has started. This sign is illustrative on national highways.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Petrol_pump.png",
+    "ground_truth": "<traffic_sign name=\"Petrol pump\">\n<flowchart>\n    <section title=\"1\">\n      This informatory sign indicates that there is a petrol pump ahead. Sometimes distance is also indicated on this sign which gives idea about the location of petrol pump from sign post.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Hospital.png",
+    "ground_truth": "<traffic_sign name=\"Hospital\">\n<flowchart>\n    <section title=\"1\">\n      This sign indicates that there is a hospital nearby. The driver should be careful driving through this stretch and should not honk unnecessarily.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/First_aid_post.png",
+    "ground_truth": "<traffic_sign name=\"First aid post\">\n<flowchart>\n    <section title=\"1\">\n      The sign shows that there is first aid facility nearby which is very useful in case of emergency or crashes. These signs are generally erected on highways and rural areas.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Eating_place.png",
+    "ground_truth": "<traffic_sign name=\"Eating place\">\n<flowchart>\n    <section title=\"1\">\n      This indicates that there is an eating place in the vicinity. This sign is common on highways and long stretches of road.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Light_Refreshment.png",
+    "ground_truth": "<traffic_sign name=\"Light Refreshment\">\n<flowchart>\n    <section title=\"1\">\n      This sign indicates that there is a light refreshment nearby on the road.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Resting_place.png",
+    "ground_truth": "<traffic_sign name=\"Resting place\">\n<flowchart>\n    <section title=\"1\">\n      This sign is erected near motel, lodge or any other place where facility for resting is available. These signs can be seen on highways.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/No_thorough_road.png",
+    "ground_truth": "<traffic_sign name=\"No thorough road\">\n<flowchart>\n    <section title=\"1\">\n      \"NO THROUGH ROAD\" sign indicates that there is no throughway. This sign informs drivers that there is no way ahead on the road.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Bus_stop.png",
+    "ground_truth": "<traffic_sign name=\"Bus stop\">\n<flowchart>\n    <section title=\"1\">\n      This sign indicates Bus Stop. It shows that all buses (public transport) will stop at this place.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Railway_station.png",
+    "ground_truth": "<traffic_sign name=\"Railway station\">\n<flowchart>\n    <section title=\"1\">\n      This sign indicates location of railway station.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Tunnel_ahead.png",
+    "ground_truth": "<traffic_sign name=\"Tunnel ahead\">\n<flowchart>\n    <section title=\"1\">\n      This sign indicates the tunnel on road. This sign sometimes may also indicate the name and length of tunnel.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Pedestrian_subway.png",
+    "ground_truth": "<traffic_sign name=\"Pedestrian subway\">\n<flowchart>\n    <section title=\"1\">\n      This sign indicates entry to a pedestrian underpass/subway. Pedestrians should invariably use these underpass/subway to cross the road.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Park_both_sides.png",
+    "ground_truth": "<traffic_sign name=\"Park both sides\">\n<flowchart>\n    <section title=\"1\">\n      \"PARKING\" sign indicates places where the parking of vehicles is authorized for particular type of vehicle. Drivers should, therefore, ensure that they are parking their vehicles at right and authorized place. Like this sign signifies that vehicles can be parked on both sides.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Parking_lot-cycles.png",
+    "ground_truth": "<traffic_sign name=\"Parking lot-cycles\">\n<flowchart>\n    <section title=\"1\">\n      \"PARKING\" sign indicates places where the parking of vehicles is authorized for particular type of vehicle. Drivers should, therefore, ensure that they are parking their vehicles at right and authorized place. Like this sign signifies that this place is reserved for parking cycles.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Parking_lot-Taxis.png",
+    "ground_truth": "<traffic_sign name=\"Parking lot-Taxis\">\n<flowchart>\n    <section title=\"1\">\n      \"PARKING\" sign indicates places where the parking of vehicles is authorized for particular type of vehicle. Drivers should, therefore, ensure that they are parking their vehicles at right and authorized place. Like this sign signifies that this place is reserved for parking car only.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Parking_lot-Auto_rickshaws.png",
+    "ground_truth": "<traffic_sign name=\"Parking lot-Auto rickshaws\">\n<flowchart>\n    <section title=\"1\">\n      \"PARKING\" sign indicates places where the parking of vehicles is authorized for particular type of vehicle. Drivers should, therefore, ensure that they are parking their vehicles at right and authorized place. Like this sign signifies that this place is reserved for parking auto rickshaws only.(1)\n</traffic_sign>"
+  },
+  {
+    "image": "handbook/images/Parking_lot-2_wheelers.png",
+    "ground_truth": "<traffic_sign name=\"Parking lot-2 wheelers\">\n<flowchart>\n    <section title=\"1\">\n      \"PARKING\" sign indicates places where the parking of vehicles is authorized for particular type of vehicle. Drivers should, therefore, ensure that they are parking their vehicles at right and authorized place. Like this sign signifies that this place is reserved for parking scooters and motor cycles.(1)\n</traffic_sign>"
+  }
+]
